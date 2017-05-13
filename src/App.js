@@ -1,21 +1,29 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Route } from "react-router-dom";
+import styled from "styled-components";
+import Sidebar from "./components/sidebar";
+import List from "./components/list";
+//import Product from "./components/product";
 
-class App extends Component {
+const Wrapper = styled.div`
+  widht: 100%;
+  min-height: 100vh;
+  display: flex;
+`;
+
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Wrapper>
+        <Sidebar />
+        <Route exact path="/" component={List} />
+      </Wrapper>
     );
   }
 }
 
-export default App;
+/*
+<Wrapper>
+  <Route path="/products" component={Product} />
+</Wrapper>
+*/
