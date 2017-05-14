@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+import React from 'react';
+import {Link} from 'react-router-dom';
+import styled from 'styled-components';
 
 const Wrapper = styled.div`
   text-align: center;
@@ -9,7 +9,7 @@ const Wrapper = styled.div`
 export default () => (
   <Wrapper>
     <Link to="/">
-      <img src={require("./../../assets/img/logo.png")} alt="Logo" />
+      <img src={require('./../../assets/img/logo.png')} alt="Logo" />
     </Link>
   </Wrapper>
 );

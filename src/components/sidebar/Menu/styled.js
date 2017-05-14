@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+import {Link} from 'react-router-dom';
+import styled from 'styled-components';
 
 export const StyledMenu = styled.nav`
   text-align: center;
@@ -16,7 +16,7 @@ export const MainLink = styled(Link)`
   position: relative;
   cursor: pointer;
   color: #303030;
-  ${p => p.isSelected && "color: #ffffff;"}
+  ${p => p.isSelected && 'color: #ffffff;'}
   font-family: "Avenir Next";
   font-size: 24px;
   font-weight: 700;
@@ -30,7 +30,7 @@ export const MainLink = styled(Link)`
 export const SubLink = styled(Link)`
   display: block;
   color: #303030;
-  ${p => p.isSelected && "color: #ffffff;"}
+  ${p => p.isSelected && 'color: #ffffff;'}
   font-family: "Andale Mono";
   font-size: 24px;
   font-weight: 400;

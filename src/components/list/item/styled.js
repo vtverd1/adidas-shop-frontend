@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { Link } from "react-router-dom";
+import styled from 'styled-components';
+import {Link} from 'react-router-dom';
 
 export const Wrapper = styled.div`
   position: relative;
@@ -24,7 +24,7 @@ export const StyledLink = styled(Link)`
   padding: 25px;
   border-top: 8px solid #f3f3f3;
   color: #0d0d0d;
-  ${p => p.sale && "color: #ffffff; background-image: linear-gradient(107deg, #0c09bf, #966dd8);"}
+  ${p => p.sale && 'color: #ffffff; background-image: linear-gradient(107deg, #0c09bf, #966dd8);'}
   font-family: "Avenir Next";
   font-size: 30px;
   font-weight: 700;

@@ -1,8 +1,8 @@
-import React from "react";
-import Logo from "./Logo";
-import Search from "./Search";
-import Menu from "./Menu";
-import styled from "styled-components";
+import React from 'react';
+import Logo from './Logo';
+import Search from './Search';
+import Menu from './Menu';
+import styled from 'styled-components';
 
 const Wrapper = styled.div`
   flex: 0 0 414px;
@@ -21,4 +21,3 @@ export default () => (
     <Menu />
   </Wrapper>
 );
-//<Logo />

@@ -1,7 +1,7 @@
-import React from "react";
-import { Wrapper, Cover, Image, StyledLink, Label } from "./styled";
+import React from 'react';
+import {Wrapper, Cover, Image, StyledLink, Label} from './styled';
 
-export default ({ img, price, sale }) => (
+export default ({img, price, sale}) => (
   <Wrapper>
     <Cover>
       <Image src={img} alt="" />

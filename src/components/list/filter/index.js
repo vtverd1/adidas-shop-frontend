@@ -1,9 +1,9 @@
-import React from "react";
-import { Wrapper, Image, Button, Label } from "./styled";
+import React from 'react';
+import {Wrapper, Image, Button, Label} from './styled';
 
 export default () => (
   <Wrapper>
-    <Image src={require("./../../../assets/img/filter.png")} />
+    <Image src={require('./../../../assets/img/filter.png')} />
     <div>
       <Button isSelected>Man</Button>
       <Button>Woman</Button>
