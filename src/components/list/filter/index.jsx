@@ -1,5 +1,5 @@
 import React from 'react';
-import {Wrapper, Image, Button, Label} from './styled';
+import { Wrapper, Image, Button, Label } from './styled';
 
 export default () => (
   <Wrapper>

@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
-import {Route} from 'react-router-dom';
+import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
 import styled from 'styled-components';
 import Sidebar from './components/sidebar';
 import List from './components/list';
-//import Product from "./components/product";
+// import Product from "./components/product";
 
 const Wrapper = styled.div`
   widht: 100%;

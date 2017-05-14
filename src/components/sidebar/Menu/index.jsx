@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyledMenu, MenuItem, MainLink, SubLink} from './styled';
+import { StyledMenu, MenuItem, MainLink, SubLink } from './styled';
 
 export default () => (
   <StyledMenu>
