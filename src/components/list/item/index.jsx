@@ -1,6 +1,6 @@
 import React from 'react';
 import { Wrapper, Cover, Image, StyledLink, Label } from './styled';
-
+/* eslint-disable */
 export default ({ img, price, sale }) => (
   <Wrapper>
     <Cover>
@@ -10,3 +10,4 @@ export default ({ img, price, sale }) => (
     {sale && <Label>Sale</Label>}
   </Wrapper>
 );
+/* eslint-enable */

@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Filter from './filter';
 import Item from './item';
-import { Grid, Row } from 'react-flexbox-grid';
-import { Col } from 'react-flexbox-grid';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+// import { Col } from 'react-flexbox-grid';
 
 export const CustomCol = styled(Col)`
 
