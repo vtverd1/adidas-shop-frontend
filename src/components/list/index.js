@@ -19,8 +19,6 @@ const CustomGrid = styled(Grid)`
   padding: 11px 24px 11px 24px;
 `;
 
-//debugger;
-
 let products = [
   {
     key: 1,
